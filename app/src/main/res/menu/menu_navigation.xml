@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard"/>
+
+    <item
+        android:id="@+id/video"
+        android:title="Videos"
+        android:icon="@drawable/ic_video"/>
+
+    <item
+        android:id="@+id/blog"
+        android:title="Blogs"
+        android:icon="@drawable/ic_blog"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/ic_feed"/>
+
+</menu>

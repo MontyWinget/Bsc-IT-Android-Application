@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticalsSem6Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <TextView
+            android:id="@+id/PracticalsSem6"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:text="Practicals - Semester 6 Subjects"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonSoftwareQualityAssurancePracticals"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Software Quality Assurance pdf" />-->
+
+        <Button
+            android:id="@+id/buttonSecurityInComputingPracticals"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:text="Security In Computing pdf" />
+
+        <Button
+            android:id="@+id/buttonBusinessIntelligencePracticals"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Business Intelligence pdf" />
+
+        <Button
+            android:id="@+id/buttonGeographicInformationSystemsPracticals"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Geographic Information Systems pdf" />
+
+        <Button
+            android:id="@+id/buttonEnterpriseNetworkingPracticals"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Enterprise Networking pdf" />
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonITServiceManagementPracticals"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="IT Service Management pdf" />-->
+
+        <Button
+            android:id="@+id/buttonCyberLawsPracticals"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Android pdf" />
+
+    </LinearLayout>
+
+</LinearLayout>

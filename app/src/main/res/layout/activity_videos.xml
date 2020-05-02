@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+        <TextView
+            android:id="@+id/textvideos"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:gravity="center|center_vertical"
+            android:text="Videos"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+
+
+        <Button
+            android:id="@+id/buttonVideosSem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:text="Semester 1"
+            android:layout_below="@id/textvideos"/>
+
+        <Button
+            android:id="@+id/buttonVideosSem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:layout_below="@id/buttonVideosSem1"
+            android:text="Semester 2" />
+
+        <Button
+            android:id="@+id/buttonVideosSem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:layout_below="@id/buttonVideosSem2"
+            android:text="Semester 3" />
+
+        <Button
+            android:id="@+id/buttonVideosSem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:layout_below="@id/buttonVideosSem3"
+            android:text="Semester 4" />
+
+        <Button
+            android:id="@+id/buttonVideosSem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:layout_below="@id/buttonVideosSem4"
+            android:text="Semester 5" />
+
+        <Button
+            android:id="@+id/buttonVideosSem6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:layout_below="@id/buttonVideosSem5"
+            android:text="Semester 6" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/appblue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>

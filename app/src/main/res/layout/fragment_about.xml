@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewAbout"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/about_intro"
+        />
+
+    <TextView
+        android:id="@+id/features"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intro"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Features"
+        />
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/features"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Notes:"
+        />
+
+    <TextView
+        android:id="@+id/notesLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notes"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="@string/notesLine"
+        />
+
+
+    <TextView
+        android:id="@+id/syllabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notesLine"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Syllabus:"
+        />
+
+    <TextView
+        android:id="@+id/syllabusLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/syllabus"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="@string/syllabusLines"
+        />
+
+
+    <TextView
+        android:id="@+id/qpapers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/syllabusLine"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Previous Question Papers"
+        />
+
+    <TextView
+        android:id="@+id/qpLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qpapers"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="@string/questionLines"
+        />
+
+    <TextView
+        android:id="@+id/qb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qpLine"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Question Banks"
+        />
+
+    <TextView
+        android:id="@+id/qbLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qb"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="@string/qbLines"
+        />
+
+    <TextView
+        android:id="@+id/timetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qbLine"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Time Table:"
+        />
+
+    <TextView
+        android:id="@+id/ttLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timetable"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="@string/ttLines"
+        />
+
+    <TextView
+        android:id="@+id/prac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttLine"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Practicals:"
+        />
+
+    <TextView
+        android:id="@+id/parcLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prac"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:text="@string/pracLines"
+        />
+
+    </RelativeLayout>
+</ScrollView>

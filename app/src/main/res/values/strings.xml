@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Bsc.IT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="about_intro">
+        <b>BSC IT </b>application is an one stop solution for all <b>BSC IT(Bachelor os Science in Information Technology) </b>students as well as students who wish to pursue <b>BSC IT</b>
+    </string>
+
+    <string name="notesLine">
+        Get universities notes and reference books for all subjects semester wise. You can view online or download PDF files.
+    </string>
+
+    <string name="syllabusLines">
+        Get latest syllabus of every year provided by the university.
+    </string>
+
+    <string name="questionLines">
+        Get PDFs of last 2-3 year University Question Papers organized semester wised. View online or download.
+    </string>
+
+    <string name="qbLines">
+        Get Question Banks for every subjects semester wise for practice.
+    </string>
+
+    <string name="ttLines">
+        You can view or download the latest time table of Theory and Practical examination of Mumbai University.
+    </string>
+
+    <string name="pracLines">
+        Get practicals lab notes for every subjects semester wise.
+    </string>
+
+    <string name="videoLine">
+        Get access to different video lectures on different topics  anytime.
+    </string>
+
+    <string name="blogsLine">
+        Expand your knowledge in the world of IT by reading latest blogs on different technologies.
+    </string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065403192924",
+    "firebase_url": "https://bscit-feedback.firebaseio.com",
+    "project_id": "bscit-feedback",
+    "storage_bucket": "bscit-feedback.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065403192924:android:ba5a3c5945e850cdb73899",
+        "android_client_info": {
+          "package_name": "com.example.bscit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065403192924-phkfcdqt7q6uhr110aqeiui9qh33jbdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bscit",
+            "certificate_hash": "0bde9749361d78b78656dfe2f4232170db71509c"
+          }
+        },
+        {
+          "client_id": "1065403192924-5i7gue4lnsg8qb647qg7n8cnp0dnf8i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0GX_F97rp6CAHUy4mOeEnA1p5K9sJElE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065403192924-5i7gue4lnsg8qb647qg7n8cnp0dnf8i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

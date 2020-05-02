@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+    <TextView
+        android:id="@+id/vidSem5Sub"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center|center_vertical"
+        android:text="Videos - Semester 5"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+
+
+    <Button
+        android:id="@+id/buttonVidSoftwareProjectManagement"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/vidSem5Sub"
+        android:text="Software Project Management" />
+
+    <Button
+        android:id="@+id/buttonVidInternetOfThings"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidSoftwareProjectManagement"
+        android:layout_marginTop="15dp"
+        android:text="Internet Of Things" />
+
+    <Button
+        android:id="@+id/buttonVidAdvancedWebProgramming"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidInternetOfThings"
+        android:layout_marginTop="15dp"
+        android:text="Advanced Web Programming" />
+
+    <Button
+        android:id="@+id/buttonVidArtificialIntelligence"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidAdvancedWebProgramming"
+        android:layout_marginTop="15dp"
+        android:text="ArtificialIntelligence" />
+
+
+    <Button
+        android:id="@+id/buttonVidNextGenerationTechnologies"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidArtificialIntelligence"
+        android:layout_marginTop="15dp"
+        android:text="Next Generation Technologies" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/appblue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>

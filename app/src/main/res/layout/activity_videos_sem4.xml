@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+    <TextView
+        android:id="@+id/vidSem4Sub"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center|center_vertical"
+        android:text="Videos - Semester 4"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+
+
+    <Button
+        android:id="@+id/buttonVidCoreJava"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/vidSem4Sub"
+        android:text="Core Java" />
+
+    <Button
+        android:id="@+id/buttonVidEmbeddedSystems"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidCoreJava"
+        android:layout_marginTop="15dp"
+        android:text="Embedded Systems" />
+
+    <Button
+        android:id="@+id/buttonVidStatisticalTechniques"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidEmbeddedSystems"
+        android:layout_marginTop="15dp"
+        android:text="Statistical Techniques" />
+
+    <Button
+        android:id="@+id/buttonVidSoftwareEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidStatisticalTechniques"
+        android:layout_marginTop="15dp"
+        android:text="SoftwareEngineering" />
+
+    <Button
+        android:id="@+id/buttonVidComputerGraphics"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidSoftwareEngineering"
+        android:layout_marginTop="15dp"
+        android:text="Computer Graphics" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/appblue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>

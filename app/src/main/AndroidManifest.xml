@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bscit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Sem6BiPrac"></activity>
+        <activity android:name=".Sem6SicPrac" />
+        <activity android:name=".Sem6GisPrac" />
+        <activity android:name=".Sem6AndroidPrac" />
+        <activity android:name=".Sem6CLActivity" />
+        <activity android:name=".Sem6GISActivity" />
+        <activity android:name=".Sem6BIActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Sem6SICActivity" />
+        <activity android:name=".Sem6SQAActivity" />
+        <activity android:name=".Sem5NGTActivity" />
+        <activity android:name=".Sem5AIActivity" />
+        <activity android:name=".Sem5AWPActivity" />
+        <activity android:name=".Sem5IOTActivity" />
+        <activity android:name=".Sem5SPMActivity" />
+        <activity android:name=".Sem4CGAActivity" />
+        <activity android:name=".Sem4STActivity" />
+        <activity android:name=".Sem4SEActivity" />
+        <activity android:name=".Sem4ESActivity" />
+        <activity android:name=".Sem4CJActivity" />
+        <activity android:name=".Sem3AMActivity" />
+        <activity android:name=".Sem3DBMSActivity" />
+        <activity android:name=".Sem3CNActivity" />
+        <activity android:name=".Sem3DSActivity" />
+        <activity android:name=".Sem3PPActivity" />
+        <activity android:name=".Sem2GCActivity" />
+        <activity android:name=".Sem2NSMActivity" />
+        <activity android:name=".Sem2WPActivity" />
+        <activity android:name=".Sem2MPAActivity" />
+        <activity android:name=".Sem2OOPActivity" />
+        <activity android:name=".CSActivity" />
+        <activity android:name=".DMMain2Activity" />
+        <activity android:name=".OSActivity" />
+        <activity android:name=".DEActivity" />
+        <activity android:name=".IMPActivity" />
+        <activity android:name=".VideosSem6Activity" />
+        <activity android:name=".VideosSem5Activity" />
+        <activity android:name=".VideosSem4Activity" />
+        <activity android:name=".VideosSem3Activity" />
+        <activity android:name=".VideosSem2Activity" />
+        <activity android:name=".VideosSem1Activity" />
+        <activity android:name=".navtwo" />
+        <activity
+            android:name=".Blog"
+            android:label="Blogs" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".Videos"
+            android:label="Videos" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PracticalsSem6Activity"
+            android:label="Semester 6 Practicals"
+            android:parentActivityName=".PracticalsActivity" />
+        <activity
+            android:name=".PracticalsSem5Activity"
+            android:label="Semester 5 Practicals"
+            android:parentActivityName=".PracticalsActivity" />
+        <activity
+            android:name=".PracticalsSem4Activity"
+            android:label="Semester 4 Practicals"
+            android:parentActivityName=".PracticalsActivity" />
+        <activity
+            android:name=".PracticalsSem3Activity"
+            android:label="Semester 3 Practicals"
+            android:parentActivityName=".PracticalsActivity" />
+        <activity
+            android:name=".PracticalsSem2Activity"
+            android:label="Semester 2 Practicals"
+            android:parentActivityName=".PracticalsActivity" />
+        <activity
+            android:name=".PracticalsSem1Activity"
+            android:label="Semester 1 Practicals"
+            android:parentActivityName=".PracticalsActivity" />
+        <activity
+            android:name=".ModelSem6Activitty"
+            android:label="Semester 6 Question Bank"
+            android:parentActivityName=".ModelActivity" />
+        <activity
+            android:name=".ModelSem5Activity"
+            android:label="Semester 5 Question Bank"
+            android:parentActivityName=".ModelActivity" />
+        <activity
+            android:name=".ModelSem4Activity"
+            android:label="Semester 4 Question Bank"
+            android:parentActivityName=".ModelActivity" />
+        <activity
+            android:name=".ModelSem3Activity"
+            android:label="Semester 3 Question Bank"
+            android:parentActivityName=".ModelActivity" />
+        <activity
+            android:name=".ModelSem2Activity"
+            android:label="Semester 2 Question Bank"
+            android:parentActivityName=".ModelActivity" />
+        <activity
+            android:name=".ModelSem1Activity"
+            android:label="Semester 1 Question Bank"
+            android:parentActivityName=".ModelActivity" />
+        <activity
+            android:name=".PreviousSem6Activity"
+            android:label="Semester 6 Previous Papers"
+            android:parentActivityName=".PreviousActivity" />
+        <activity
+            android:name=".PreviousSem5Activity"
+            android:label="Semester 5 Previous Papers"
+            android:parentActivityName=".PreviousActivity" />
+        <activity
+            android:name=".PreviousSem4Activity"
+            android:label="Semester 4 Previous Papers"
+            android:parentActivityName=".PreviousActivity" />
+        <activity
+            android:name=".PreviousSem3Activity"
+            android:label="Semester 3 Previous Papers"
+            android:parentActivityName=".PreviousActivity" />
+        <activity
+            android:name=".PreviousSem2Activity"
+            android:label="Semester 2 Previous Papers"
+            android:parentActivityName=".PreviousActivity" />
+        <activity
+            android:name=".PreviousSem1Activity"
+            android:label="Semester 1 Previous Papers"
+            android:parentActivityName=".PreviousActivity" />
+        <activity
+            android:name=".NotesSem6Activity"
+            android:label="Semester 6 Notes"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".NotesSem5Activity"
+            android:label="Semester 5 Notes"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".NotesSem4Activity"
+            android:label="Semester 4 Notes"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".NotesSem3Activity"
+            android:label="Semeter 3 Notes"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".NotesSem2Activity"
+            android:label="Semester 2 Notes"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".NotesSem1Activity"
+            android:label="Semester 1 Notes"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".PracticalsActivity"
+            android:label="Practicals"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExamsActivity"
+            android:label="Time-Table"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ModelActivity"
+            android:label="Question Bank"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PreviousActivity"
+            android:label="Previous Papers"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SyllabusActivity"
+            android:label="Syllabus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NotesActivity"
+            android:label="Notes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

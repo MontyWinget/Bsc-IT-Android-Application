@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviousSem2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <TextView
+            android:id="@+id/PreviousSem2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:text="Previous Question Papers - Semester 2 Subjects"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonObjectOrientedProgrammingPrevious"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:text="Object Oriented Programming pdf" />
+
+        <Button
+            android:id="@+id/buttonMicroProcessorArchitecturePrevious"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Micro Processor Architecture pdf" />
+
+        <Button
+            android:id="@+id/buttonWebProgrammingPrevious"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Web Programming pdf" />
+
+        <Button
+            android:id="@+id/buttonNumericalStatisticalMethodsPrevious"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Numerical And Statistical Methods pdf" />
+
+        <Button
+            android:id="@+id/buttonGreenComputingPrevious"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginTop="15dp"
+            android:text="Green Computing pdf" />
+
+    </LinearLayout>
+
+</LinearLayout>

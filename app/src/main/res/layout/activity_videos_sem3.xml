@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+    <TextView
+        android:id="@+id/vidSem3Sub"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center|center_vertical"
+        android:text="Videos - Semester 3"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+
+
+    <Button
+        android:id="@+id/buttonVidPythonProgramming"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/vidSem3Sub"
+        android:text="Python Programming" />
+
+    <Button
+        android:id="@+id/buttonVidDataStructures"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidPythonProgramming"
+        android:layout_marginTop="15dp"
+        android:text="Data Structures" />
+
+    <Button
+        android:id="@+id/buttonVidComputerNetworks"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidDataStructures"
+        android:layout_marginTop="15dp"
+        android:text="Computer Networks" />
+
+    <Button
+        android:id="@+id/buttonVidDatabaseManagementSystems"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidComputerNetworks"
+        android:layout_marginTop="15dp"
+        android:text="Database Management Systems" />
+
+    <Button
+        android:id="@+id/buttonVidAppliedMathematics"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidDatabaseManagementSystems"
+        android:layout_marginTop="15dp"
+        android:text="Applied Mathematics" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/appblue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>

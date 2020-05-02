@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+    <TextView
+        android:id="@+id/vidSem6Sub"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="center|center_vertical"
+        android:text="Videos - Semester 6"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+
+
+    <Button
+        android:id="@+id/buttonVidSoftwareQualityAssurance"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/vidSem6Sub"
+        android:text="Software Quality Assurance" />
+
+    <Button
+        android:id="@+id/buttonVidSecurityInComputing"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidSoftwareQualityAssurance"
+        android:layout_marginTop="15dp"
+        android:text="Security In Computing" />
+
+    <Button
+        android:id="@+id/buttonVidBusinessIntelligence"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidSecurityInComputing"
+        android:layout_marginTop="15dp"
+        android:text="Business Intelligence" />
+
+    <Button
+        android:id="@+id/buttonVidGeographicInformationSystems"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidBusinessIntelligence"
+        android:layout_marginTop="15dp"
+        android:text="Geographic Information Systems" />
+
+
+    <Button
+        android:id="@+id/buttonVidCyberLaws"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidGeographicInformationSystems"
+        android:layout_marginTop="15dp"
+        android:text="Cyber Laws" />
+
+    <TableRow
+        android:id="@+id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/buttonVidCyberLaws"
+        android:layout_marginTop="20dp"
+        android:background="#444"></TableRow>
+
+    <TextView
+        android:id="@+id/vidSem6prac"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:gravity="center|center_vertical"
+        android:text="Practicals"
+        android:textStyle="bold"
+        android:layout_below="@id/hr"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonVidAndroidPrac"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/vidSem6prac"
+        android:text="Android Kotlin Practicals" />
+
+    <Button
+        android:id="@+id/buttonVidBiPrac"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidAndroidPrac"
+        android:layout_marginTop="15dp"
+        android:text="Business Intelligemce Practicals" />
+
+    <Button
+        android:id="@+id/buttonVidSicPrac"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidBiPrac"
+        android:layout_marginTop="15dp"
+        android:text="Security In Computing Practicals" />
+
+    <Button
+        android:id="@+id/buttonVidGisPrac"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidSicPrac"
+        android:layout_marginTop="15dp"
+        android:text="GIS Practicals" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/appblue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>

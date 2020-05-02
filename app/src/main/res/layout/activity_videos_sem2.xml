@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+    <TextView
+        android:id="@+id/vidSem2Sub"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center|center_vertical"
+        android:text="Videos - Semester 2"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+
+
+    <Button
+        android:id="@+id/buttonVidObjectOrientedProgramming"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/vidSem2Sub"
+        android:text="Object Oriented Programming" />
+
+    <Button
+        android:id="@+id/buttonVidMicroProcessorArchitecture"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidObjectOrientedProgramming"
+        android:layout_marginTop="15dp"
+        android:text="MicroProcessor Architecture" />
+
+    <Button
+        android:id="@+id/buttonVidWebProgramming"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidMicroProcessorArchitecture"
+        android:layout_marginTop="15dp"
+        android:text="Web Programming" />
+
+    <Button
+        android:id="@+id/buttonVidNumericalStatisticalMethods"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidWebProgramming"
+        android:layout_marginTop="15dp"
+        android:text="Numerical Statistical Methods" />
+
+    <Button
+        android:id="@+id/buttonVidGreenComputing"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@id/buttonVidNumericalStatisticalMethods"
+        android:layout_marginTop="15dp"
+        android:text="Green Computin" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/appblue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>
