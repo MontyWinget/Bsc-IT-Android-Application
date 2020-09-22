@@ -25,7 +25,7 @@ public class Blog extends AppCompatActivity {
         myWebView = (WebView)findViewById(R.id.blogWebview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://www.computerweekly.com/blogs");
+        myWebView.loadUrl("https://www.technicalbytes.com");
         myWebView.setWebViewClient(new WebViewClient());
 
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigation);
